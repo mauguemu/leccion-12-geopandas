@@ -38,10 +38,10 @@ cd leccion-12-geopandas
 jupyter notebook
 
 # Actualización del repositorio y de los archivos GeoJSON generados
-$ git add .
-$ git commit -m "Actualizar notebook"
-$ git push
+git add .
+git commit -m "Actualizar notebook"
+git push
 
 # Desactivación del ambiente Conda
-$ conda deactivate
+conda deactivate
 ```
