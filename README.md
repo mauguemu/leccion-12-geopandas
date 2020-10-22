@@ -25,6 +25,8 @@ conda activate leccion-12
 conda install -c anaconda jupyter
 # GeoPandas
 conda install geopandas
+# Matplotlib
+conda install -c conda-forge matplotlib
 
 # Clonación del repositorio (debe sustituir la palabra "usuario" por su nombre de usuario en GitHub)
 git clone https://github.com/usuario/leccion-12-geopandas.git
