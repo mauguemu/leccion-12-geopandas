@@ -23,6 +23,8 @@ conda activate leccion-12
 # Instalación de módulos
 # Jupyter
 conda install -c anaconda jupyter
+# Pandas
+conda install -c anaconda pandas
 # GeoPandas
 conda install -c conda-forge geopandas
 
