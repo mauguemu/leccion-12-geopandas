@@ -34,6 +34,7 @@ cd leccion-12-geopandas
 
 # Prueba de carga de los módulos en el interpretador de Python (los import no deben producir errores)
 python
+>>> import pandas
 >>> import geopandas
 >>> quit()
 
