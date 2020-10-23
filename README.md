@@ -15,10 +15,10 @@ Ejecute estos comandos desde la línea de comandos de Anaconda, en el directorio
 conda update -n base -c defaults conda
 
 # Creación del ambiente
-conda create -n leccion-12
+conda create -n leccion-12a
 
 # Activación del ambiente
-conda activate leccion-12
+conda activate leccion-12a
 
 # Configuración
 conda config --env --add channels conda-forge
