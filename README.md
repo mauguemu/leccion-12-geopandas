@@ -20,15 +20,25 @@ conda create -n leccion-12a
 # Activación del ambiente
 conda activate leccion-12a
 
-# Configuración
+# Instalación de módulos
+# Jupyter
+conda install -c anaconda jupyter
+# GeoPandas
 conda config --env --add channels conda-forge
 conda config --env --set channel_priority strict
-
-# Instalación de módulos
 conda install python=3 geopandas
 
 # Clonación del repositorio (debe sustituir la palabra "usuario" por su nombre de usuario en GitHub)
 git clone https://github.com/usuario/leccion-12-geopandas.git
+cd leccion-12-geopandas
+
+# Prueba de carga de los módulos en el interpretador de Python (los import no deben producir errores)
+python
+>>> import geopandas
+>>> quit()
+
+# Ejecución del Jupyter Notebook
+jupyter notebook
 
 # Actualización del repositorio y de los archivos GeoJSON generados
 git add .
