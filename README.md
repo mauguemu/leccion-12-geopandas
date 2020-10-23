@@ -20,15 +20,12 @@ conda create -n leccion-12
 # Activación del ambiente
 conda activate leccion-12
 
+# Configuración
+conda config --env --add channels conda-forge
+conda config --env --set channel_priority strict
+
 # Instalación de módulos
-# Jupyter
-conda install -c anaconda jupyter
-# GeoPandas
-conda install geopandas
-# Matplotlib
-conda install -c conda-forge matplotlib
-# Descartes
-conda install -c conda-forge descartes
+conda install python=3 geopandas
 
 # Clonación del repositorio (debe sustituir la palabra "usuario" por su nombre de usuario en GitHub)
 git clone https://github.com/usuario/leccion-12-geopandas.git
