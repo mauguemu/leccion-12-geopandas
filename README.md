@@ -36,6 +36,8 @@ cd leccion-12-geopandas
 python
 >>> import pandas
 >>> import geopandas
+>>> import matplotlib
+>>> import descartes
 >>> quit()
 
 # Ejecución del Jupyter Notebook
