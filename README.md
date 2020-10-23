@@ -29,10 +29,6 @@ conda install python=3 geopandas
 
 # Clonación del repositorio (debe sustituir la palabra "usuario" por su nombre de usuario en GitHub)
 git clone https://github.com/usuario/leccion-12-geopandas.git
-cd leccion-12-geopandas
-
-# Ejecución de Jupyter Notebook
-jupyter notebook
 
 # Actualización del repositorio y de los archivos GeoJSON generados
 git add .
